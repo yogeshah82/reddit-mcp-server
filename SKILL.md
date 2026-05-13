@@ -7,6 +7,8 @@ description: Interact with Reddit (read posts, search, comment, post) via the Re
 
 This skill enables Comet to interact with Reddit via the Reddit MCP (Model Context Protocol) server. It exposes tools for reading posts and users, searching subreddits, and (with credentials) creating, editing, and deleting Reddit content.
 
+## Project Overview
+
 This is a Reddit MCP (Model Context Protocol) server that provides tools for interacting with the Reddit API. It's built with TypeScript and uses FastMCP to expose Reddit functionality as tools that can be used by AI assistants.
 
 ## Available Tools
