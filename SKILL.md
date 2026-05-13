@@ -1,8 +1,11 @@
-# Skill.md
+---
+name: reddit-mcp
+description: Interact with Reddit (read posts, search, comment, post) via the Reddit MCP server. Invoke when the user asks to browse, search, or manage Reddit content.
+---
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# Reddit MCP Server Skill
 
-## Project Overview
+This skill enables Comet to interact with Reddit via the Reddit MCP (Model Context Protocol) server. It exposes tools for reading posts and users, searching subreddits, and (with credentials) creating, editing, and deleting Reddit content.
 
 This is a Reddit MCP (Model Context Protocol) server that provides tools for interacting with the Reddit API. It's built with TypeScript and uses FastMCP to expose Reddit functionality as tools that can be used by AI assistants.
 
